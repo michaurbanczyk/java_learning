@@ -27,6 +27,7 @@ public class Main {
                     break;
             }
         }
-        System.out.println("Results:" + Arrays.toString(results));
+        for (double result : results)
+            System.out.println("Result: " + result);
     }
 }
